@@ -1,0 +1,687 @@
+{
+  "source": "https://methodwakfu.com/bien-debuter/classes/la-classe-osamodas/#11-_Liste_des_invocations_capturables",
+  "source_title": "La Classe Osamodas - MethodWakfu",
+  "published_on_page": "2026-01-14",
+  "notes": {
+    "capturable_invocations_total": 30,
+    "storage_limit_in_gobgob": 10,
+    "archetype_rules": {
+      "Sans archétype": {
+        "esquive_from_osamodas_percent": 50,
+        "tacle_from_osamodas_percent": 50
+      },
+      "Altruiste": {
+        "esquive_from_osamodas_percent": 100,
+        "tacle_from_osamodas_percent": 0
+      },
+      "Défensif": {
+        "esquive_from_osamodas_percent": 0,
+        "tacle_from_osamodas_percent": 100
+      },
+      "Offensif": {
+        "esquive_from_osamodas_percent": 100,
+        "tacle_from_osamodas_percent": 0
+      }
+    }
+  },
+  "invocations": [
+    {
+      "name": "Piou rouge",
+      "location": "Astrub – Montagnes d’Astrub",
+      "archetype": "Sans archétype",
+      "level": "22-30",
+      "spells": [
+        {
+          "name": "Picorage ardent",
+          "description": "Sort monocible de 1-3 po fixe. Inflige 69 dégâts feu et retire 10 %CC. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Picore",
+          "description": "Sort monocible de 1-2 po fixe. Inflige 75 dégâts feu et augmente de 10 % les dégâts critiques subits. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Pioussance écarlate",
+          "description": "Sort de zone (cercle de taille 4) à 0 po fixe. Donne 15 %CC. 3 tours de recharge."
+        }
+      ]
+    },
+    {
+      "name": "Moogrr",
+      "location": "Amakna – Champs qui chantent",
+      "archetype": "Sans archétype",
+      "level": "40-48",
+      "spells": [
+        {
+          "name": "Bombouzement",
+          "description": "Sort de zone (cercle de taille 2) de 1-4 po modifiable sans ligne de vue. Pose un glyphe retirant 2 po aux combattants. Au début du prochain tour, le glyphe explose, infligeant 92 dégâts feu et retirant 10 %DI. 2 utilisations par tour."
+        },
+        {
+          "name": "Encornage",
+          "description": "Sort monocible au contact. Inflige 81 dégâts terre et pousse de 3 cases. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Tour de Moogrr",
+          "description": "Sort utilitaire de 1-4 po fixe. Échange de position avec la cible. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Kaskargo",
+      "location": "Mont Zinit – Plage Sauvage",
+      "archetype": "Sans archétype",
+      "level": "59-63",
+      "spells": [
+        {
+          "name": "Barrière Kaskargo",
+          "description": "Sort de zone (cercle de taille 4) à 0 po. Applique sur les alliés une réduction de 600 (fixe) dégâts de la prochaine attaque à distance. Ce montant est de 200 (fixe) pour le Kaskargo mais ce dernier se soigne de 20 % de ses PdV manquants au lancement du sort. 2 tours de recharge."
+        },
+        {
+          "name": "Mucus grippal",
+          "description": "Sort de zone (croix de taille 1) de 2-4 po modifiable. Inflige 69 dégâts eau et retire 2 PA. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Scie circulaire",
+          "description": "Sort monocible de 1-2 po fixe en ligne. Inflige 87 dégâts terre et augmente de 600 (fixe) les prochains dégâts reçus par la cible. Ne se lance qu’une fois par cible et deux fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Corbac",
+      "location": "Kelba – Landes de Kelba",
+      "archetype": "Sans archétype",
+      "level": "69",
+      "spells": [
+        {
+          "name": "Tornade de plumes",
+          "description": "Sort utilitaire de 2-4 po fixe. Pose un glyphe, tout combattant s’en approchant est repoussé de 2 cases. De plus, inflige 69 dégâts air aux ennemis. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Coup de bec",
+          "description": "Sort monocible de 2-6 po modifiable. Inflige 69 dégâts air et retire 2 po à la cible. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Vision du corbac",
+          "description": "Sort utilitaire de 1-5 po modifiable et sans ligne de vue. Donne 2 po à l’allié ciblé. Ne se lance qu’une fois par cible et deux fois par tour."
+        }
+      ],
+      "notes": [
+        "La Tornade de plumes ne peut pousser qu’une fois par tour un même combattant."
+      ]
+    },
+    {
+      "name": "Chafer élite",
+      "location": "Brâkmar – Landes de Sidimote",
+      "archetype": "Sans archétype",
+      "level": "89-93",
+      "spells": [
+        {
+          "name": "Sabre d’élite",
+          "description": "Sort monocible de 1-2 po fixe. Inflige 75 dégâts feu et retire 50 résistance. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Tibia vengeur",
+          "description": "Sort monocible de 1-3 po modifiable. Inflige 69 dégâts feu et retire 15 parade. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Trompette de la mort",
+          "description": "Sort de zone (cercle de taille 4) de 0 po fixe. Inflige 50 dégâts air et donne 20 %DI aux alliés. 3 tours de recharge."
+        }
+      ]
+    },
+    {
+      "name": "Chuchoteur Porte-Etendard",
+      "location": "Royaume Chuchoku – Chuchoplaine",
+      "archetype": "Sans archétype",
+      "level": "100-104",
+      "spells": [
+        {
+          "name": "Chuch’Ote-toi",
+          "description": "Sort monocible de 1 po fixe. Inflige 75 dégâts air et pousse de 2 cases. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Chuchotement guérissant",
+          "description": "Sort monocible de 1-5 po fixe. Soigne 56. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Chuchotement Motivant",
+          "description": "Sort de zone (cercle de taille 4) de 0 po fixe. Donne 50 résistance et 1 PM aux alliés. 3 tours de recharge."
+        }
+      ]
+    },
+    {
+      "name": "Gros Smare",
+      "location": "Mont Zinit – Bas Flanc",
+      "archetype": "Sans archétype",
+      "level": "119-123",
+      "spells": [
+        {
+          "name": "Smartiste",
+          "description": "Sort zone de 1-2 po modifiable. Inflige 75 dégâts terre et se soigne du montant de dégâts infligés. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Spore de combat",
+          "description": "Sort monocible de 1-3 po modifiable. Inflige 75 dégâts feu et génère 1 000 d’armure sur le lanceur. 2 utilisations par tour."
+        },
+        {
+          "name": "Smarandole",
+          "description": "Sort utilitaire de 1-5 po modifiable sans ligne de vue. Applique l’état du même nom sur l’allié ciblé pendant 2 tours. Le Gros Smare subit 50 % dégâts en moins, ce montant réduit est soigné sur l’allié ciblé, de plus, l’état donne 50 résistance. 2 tours de recharge."
+        }
+      ]
+    },
+    {
+      "name": "Patapattes",
+      "location": "Mine de Brâkmar – Tréfonds",
+      "archetype": "Sans archétype",
+      "level": "164-168",
+      "spells": [
+        {
+          "name": "Aboiement Poutreux",
+          "description": "Sort monocible au contact. Inflige 87 dégâts terre et pousse de 3 cases. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Patacrachouille",
+          "description": "Sort monocible de 1-4 po modifiable. Inflige 75 dégâts feu et retire 3 PM. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Stalagmikmak",
+          "description": "Sort de zone (ligne de taille 3) de 2-4 po modifiable en ligne. Inflige 69 dégâts terre et applique incurable (niv.3) et échaudé. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Boufette",
+      "location": "Astrub – Tainela",
+      "archetype": "Altruiste",
+      "level": "10-14",
+      "spells": [
+        {
+          "name": "Baiser brûlant",
+          "description": "Sort monocible de 1-3 po modifiable. Soigne 78 en cercle de taille 2 autour de la cible du sort quand ou si la cible a moins de 20 % PdV max."
+        },
+        {
+          "name": "Câlin",
+          "description": "Sort monocible de 1-4 po modifiable. Soigne 42. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Baiser fougueux",
+          "description": "Sort monocible de 1-4 po modifiable. Confère 972 armure et applique l’état du même nom qui augmente de 50 % les soins réalisés de la boufette si la cible subit des dégâts d’un ennemi."
+        }
+      ],
+      "notes": [
+        "Le bonus de 50 %SR n’est donné à la Boufette qu’après le soin de Baiser brûlant."
+      ]
+    },
+    {
+      "name": "Muloune",
+      "location": "Royaume Sadida – Clairière des Mulous",
+      "archetype": "Altruiste",
+      "level": "74-78",
+      "spells": [
+        {
+          "name": "Attaque lunaire",
+          "description": "Sort de zone (croix de taille 1) de 2-6 po modifiable en ligne. Inflige 46 dégâts air aux ennemis et applique 631 armure aux alliés. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Au clair de la Muloune",
+          "description": "Sort monocible de 1-5 po modifiable en ligne. Soigne 42 et donne 50 résistances (1 tour). Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Largesse",
+          "description": "Sort de zone (bâton de taille 3) de 3-8 po modifiable en ligne. Soigne 28 les alliés et inflige 46 dégâts air aux ennemis en leur appliquant Incurable (niv.4). Ne se lance qu’une fois par cible et trois fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Tiwallieuw Wabbit",
+      "location": "Île des Wabbits – Fowtewesse du Wa",
+      "archetype": "Altruiste",
+      "level": "140",
+      "spells": [
+        {
+          "name": "Lance-Cawotte",
+          "description": "Sort monocible de 3-6 po modifiable sans ligne de vue. Inflige 75 dégâts air et pousse de 1 case. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Wavitaillement",
+          "description": "Sort monocible de 1-5 po modifiable. Soigne 48. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Cawotte à fwagmentation",
+          "description": "Sort de zone (croix de taille 1) de 1-6 po modifiable sans ligne de vue. Inflige 63 dégâts feu aux ennemis et soigne 39 les alliés. Ne se lance que deux fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Phéromane",
+      "location": "Moon – Sous terrains de l’Île de Moon",
+      "archetype": "Altruiste",
+      "level": "179-183",
+      "spells": [
+        {
+          "name": "Sporcelaine",
+          "description": "Sort de zone (bâton de taille 3) de 1-7 po modifiable en ligne. Inflige 69 dégâts air aux ennemis et soigne 39 les alliés. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Sporifique",
+          "description": "Sort monocible de 1-6 po modifiable. Soigne 42. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Sportal",
+          "description": "Sort de zone (carré de taille 3) de 2-5 po fixe. Inflige 92 dégâts air aux ennemis et échange de position avec la cible. Les alliés eux sont soignés de 42. 2 tours de recharge."
+        }
+      ]
+    },
+    {
+      "name": "Pinsulaire",
+      "location": "Osamosa – Rivage Caudale",
+      "archetype": "Altruiste",
+      "level": "205-209",
+      "spells": [
+        {
+          "name": "Typhon",
+          "description": "Sort de zone (croix de taille 3) de 3-6 po modifiable. Inflige 75 dégâts eau aux ennemis et soigne 36 les alliés. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Souffle insulaire",
+          "description": "Sort monocible de 2-5 po modifiable en ligne. Inflige 75 dégâts air aux ennemis et soigne 42 les alliés. Repousse également de 3 cases. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Répulsion",
+          "description": "Sort monocible de 4-5 po modifiable. Inflige 69 dégâts air aux ennemis et soigne 39 les alliés. Repousse également d’une case les cibles autour de la cible. Ne se lance qu’une fois par cible et deux fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Chimère veilleuse",
+      "location": "Île des brumes – Savane",
+      "archetype": "Altruiste",
+      "level": "233-237",
+      "spells": [
+        {
+          "name": "Ruade avant",
+          "description": "Sort monocible de 1 po fixe. Inflige 75 dégâts terre aux ennemis et pousse de 3 cases. Ne se lance qu’une fois par cible et deux fois par cible."
+        },
+        {
+          "name": "Pouvoir antique",
+          "description": "Sort de zone (cercle de taille 2) de 3-5 po fixe, sans ligne de vue. Inflige 63 dégâts air aux ennemis et les alliés se trouvant en cercle de taille 2 autour de la chimère veilleuse sont soignés de 24 multiplié par le nombre d’ennemis touchés. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Veilleuse",
+          "description": "Sort monocible de 1 po fixe. Se sacrifie et transmet ses PV courants à la cible."
+        }
+      ],
+      "notes": [
+        "Le sort Veilleuse coûte 2 PW et comme la chimère se sacrifie, il n’y aura pas d’invocation sur le terrain au prochain tour pour récupérer des PW."
+      ]
+    },
+    {
+      "name": "Craqueleur Ancestral",
+      "location": "Amakna – Forêt d’Emelka",
+      "archetype": "Défensif",
+      "level": "44-48",
+      "spells": [
+        {
+          "name": "Coeur de pierre",
+          "description": "Sort utilitaire sur soi. Donne 100 résistance et 200 tacle. 2 tours de recharge."
+        },
+        {
+          "name": "Frappe du craqueleur",
+          "description": "Sort de zone (croix de taille 3) de 1 po fixe lançable également sur soi. Attire de 2 cases et inflige 69 dégâts terre. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Coup de Menhir",
+          "description": "Sort de zone (croix de taille 1) sur soi. Inflige 63 dégâts terre et retire 2 PM. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Grokoko",
+      "location": "Sufokia – Dune Kane",
+      "archetype": "Défensif",
+      "level": "59-63",
+      "spells": [
+        {
+          "name": "Kokolère",
+          "description": "Sort utilitaire de 2-6 po fixe en ligne. Attire la cible de 5 cases puis stabilise le Grokoko. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Kokolatte",
+          "description": "Sort monocible de 1-2 po fixe. Inflige 75 dégâts terre et retire 2 PM. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Hélikokoptère",
+          "description": "Sort utilitaire de 1-5 po fixe sans ligne de vue. Se téléporte sur la case ciblée. 2 tours de recharge."
+        }
+      ]
+    },
+    {
+      "name": "Mulmouth Enragé",
+      "location": "Ile Sberg – Village Enseveli Enseveli",
+      "archetype": "Défensif",
+      "level": "104-108",
+      "spells": [
+        {
+          "name": "Eventrement",
+          "description": "Sort monocible au contact. Inflige 69 dégâts terre et retire 200 esquive non cumulable, régénère également 100 % des dégâts infligés à la cible. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Hurlement",
+          "description": "Sort utilitaire de zone (croix de taille 5) sur soi. Attire les ennemis de 2 cases et donne 1 PM aux alliés. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Sauvetage",
+          "description": "Sort utilitaire de 1-4 po fixe. Protège l’allié ciblé en interceptant 50 % des dégâts qu’il subit. Applique également Incurable (niv.5) et Friable (niv.5) sur la cible. 3 tours de recharge."
+        }
+      ]
+    },
+    {
+      "name": "Abraknyde Ancestral",
+      "location": "Bonta – Fourré de Tonkult",
+      "archetype": "Défensif",
+      "level": "134-138",
+      "spells": [
+        {
+          "name": "Contamination Ancestrale",
+          "description": "Sort de zone (cercle de taille 2) sur soi. Retire 972 armure et inflige 75 dégâts eau aux ennemis. L’Abraknyde Ancestral stocke 972 d’armure. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Tempête Ancestrale",
+          "description": "Sort monocible de 1-3 po fixe. Inflige 75 dégâts air et stocke 1377 d’armure. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Sève Ancestrale",
+          "description": "Sort utilitaire de zone (cercle de taille 2) sur soi. Applique l’armure stockée sur les alliés. Ne se lance qu’une fois par tour."
+        }
+      ],
+      "notes": [
+        "Le montant d’armure est fixe."
+      ]
+    },
+    {
+      "name": "Lairdavan",
+      "location": "Xélorium – Présent",
+      "archetype": "Défensif",
+      "level": "160-164",
+      "spells": [
+        {
+          "name": "Pulse",
+          "description": "Sort monocible au contact. Inflige 75 dégâts air, retire 2 PM et stabilise le Lairdavan. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Surcharge",
+          "description": "Sort monocible au contact. Inflige 75 dégâts air et applique l’état du même nom : en fin de tour, si la cible finit à 3 cases ou moins du Lairdavan, l’Osamodas lui inflige 150 dégâts air. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Blisable",
+          "description": "Sort monocible de 2-4 po fixe en ligne. Se rapproche au contact de la cible et inflige 69 dégâts air. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Rhinocéroc",
+      "location": "Île des brumes – Cosmo canyon",
+      "archetype": "Défensif",
+      "level": "239-242",
+      "spells": [
+        {
+          "name": "Charde rocheuse",
+          "description": "Sort monocible de 2-6 po fixe en ligne. Se rapproche de la cible, inflige 75 dégâts terre puis repousse la cible de 3 cases. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Plombée",
+          "description": "Sort monocible au contact. Inflige 75 dégâts feu et retire 20%DI, 20%CC et 20%Parade à la cible jusqu’à la fin du prochain tour du Rhinocéroc. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Empal’korne",
+          "description": "Sort monocible au contact. Inflige 81 dégâts terre et retire 4 PM. Ne se lance qu’une fois par tour."
+        }
+      ],
+      "notes": [
+        "Plombée ne peut pas être appliqué sur la même cible deux tours d’affilée car l’état dure jusqu’à la fin du prochain tour du Rhinocéroc."
+      ]
+    },
+    {
+      "name": "Tofu",
+      "location": "Astrub – Champs d’Astrub",
+      "archetype": "Offensif",
+      "level": "8-12",
+      "spells": [
+        {
+          "name": "Coup de bec",
+          "description": "Sort monocible au contact. Inflige 75 dégâts air, retire 2 PM et le Tofu gagne un niveau (max. 3) de l’état du même nom. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Tofurberie",
+          "description": "Sort utilitaire sur soi. Donne aux alliés dans la zone (cercle de taille 2) le tacle et les PM stockés par le Tofu. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Bécot du Tofu",
+          "description": "Sort monocible de 1-3 po fixe. Inflige 75 dégâts air, retire 200 tacle et le Tofu gagne 200 niveaux (max. 690) de l’état du même nom. Ne se lance que deux fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Arakne",
+      "location": "Astrub – Forêt d’Astrub",
+      "archetype": "Offensif",
+      "level": "19-23",
+      "spells": [
+        {
+          "name": "Morsure",
+          "description": "Sort monocible au contact. Inflige 81 dégâts eau et retire 2 PA. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Morsure empoisonnée",
+          "description": "Sort de zone (croix de taille 1) de 1-4 po modifiable. Inflige 57 dégâts eau et applique un poison sur les ennemis de 21 dégâts eau pour chaque sort lancé coûtant des PA. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Rets de soie",
+          "description": "Sort monocible de 2-6 po fixe en ligne. Attire de 5 cases puis applique un poison sur l’ennemi se déclenchant pour infliger 27 dégâts eau après un déplacement. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Long Brick",
+      "location": "Mont Zinit – Grotte Slek",
+      "archetype": "Offensif",
+      "level": "85-89",
+      "spells": [
+        {
+          "name": "Long Brack",
+          "description": "Sort de zone (carré de taille 3) de 3-5 po modifiable sans ligne de vue. Inflige 63 dégâts terre et retire 2 PM. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Slek un jour…",
+          "description": "Sort de zone (carré de taille 3) de 3-5 po modifiable. Inflige 75 dégâts terre. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Où Slek il est passé ?",
+          "description": "Sort utilitaire de 1-4 po fixe. Se téléporte sur la case ciblée. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Zespadon",
+      "location": "Mine de Sufokia – Galeries",
+      "archetype": "Offensif",
+      "level": "115-119",
+      "spells": [
+        {
+          "name": "Glisspadon",
+          "description": "Sort de zone de 3-6 po fixe, en ligne et sans ligne de vue. Inflige sur le chemin 81 dégâts eau et se téléporte sur la case si elle n’est pas occupée. 2 tours de recharge."
+        },
+        {
+          "name": "Z comme…",
+          "description": "Sort monocible au contact. Inflige 81 dégâts eau et retire 2 PM. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Zestafilade",
+          "description": "Sort monocible au contact. Inflige 81 dégâts eau. Ne se lance que deux fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Cêpolourpode",
+      "location": "Saharach – La Fungopée",
+      "archetype": "Offensif",
+      "level": "134",
+      "spells": [
+        {
+          "name": "Impact fongique",
+          "description": "Sort de zone (cercle de taille 2) sur soi. Inflige 81 dégâts terre, augmente les dégâts de 5 % (max. 40) pour chaque PM restant. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Spore-Tif",
+          "description": "Sort utilitaire sur soi. Donne 1 PM pour chaque tour sans avoir lancé ce sort (min. 1). Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Châtiment fongique",
+          "description": "Sort monocible au contact. Inflige 75 dégâts terre, augmente les dégâts de 5 % (max. 40) pour chaque PM restant. Ne se lance que deux fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Sramva",
+      "location": "Srambad",
+      "archetype": "Offensif",
+      "level": "150",
+      "spells": [
+        {
+          "name": "Slash",
+          "description": "Sort monocible de 1-3 po fixe sans ligne de vue. Se téléporte derrière la cible et inflige 81 dégâts feu. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Krit",
+          "description": "Sort de zone (croix de taille 1) sur soi. Inflige 75 dégâts feu. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Chram",
+          "description": "Sort de zone (croix de taille 1) de 2-5 po fixe. Se téléporte devant la cible et inflige 75 dégâts feu autour du Sramva. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Gerbouille",
+      "location": "Royaume Sadida – Galeries des Gerbouilles",
+      "archetype": "Offensif",
+      "level": "175-179",
+      "spells": [
+        {
+          "name": "Éclair",
+          "description": "Sort monocible de 1-6 po modifiable. Inflige 69 dégâts feu et réplique le sort au début du prochain tour. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Tonnerre",
+          "description": "Sort monocible de 2-4 po fixe sans ligne de vue. Inflige 103 dégâts feu et réplique le sort en zone cercle de taille 2 au début du prochain tour. 2 tours de recharge."
+        },
+        {
+          "name": "Foudroiement",
+          "description": "Sort de zone (cercle de taille 2) de 1-4 po fixe. Inflige 81 dégâts air. Ne se lance qu’une fois par tour."
+        }
+      ],
+      "notes": [
+        "Les répliques sont considérées comme des dégâts directs."
+      ]
+    },
+    {
+      "name": "Dragoeuf Guerrier",
+      "location": "Mont Zinit – Sommet",
+      "archetype": "Offensif",
+      "level": "190-194",
+      "spells": [
+        {
+          "name": "Griffure",
+          "description": "Sort de zone (croix de taille 1) de 2-5 po modifiable. Inflige 50 dégâts feu et 25 dégâts feu sous l’armure. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Souffle de feu",
+          "description": "Sort de zone (souffle de taille 3) de 1-3 po fixe en ligne. Inflige 112 dégâts feu. 2 tours de recharge."
+        },
+        {
+          "name": "Coup de queue",
+          "description": "Sort de zone (croix de taille 1) sur soi. Inflige 69 dégâts air et pousse de 2 cases. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Gentibourg",
+      "location": "Royaume Sadida – Forêt déforestée",
+      "archetype": "Offensif",
+      "level": "190-194",
+      "spells": [
+        {
+          "name": "Hibourg Perché",
+          "description": "Sort utilitaire sur soi. Monte sur son perchoir : +30 %DI, -100 PM, +3 po (dure 2 tours). 3 tours de recharge."
+        },
+        {
+          "name": "Hibouteille",
+          "description": "Sort monocible de 3-7 po modifiable sans ligne de vue. Inflige 63 dégâts air. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Coup de Hiboule",
+          "description": "Sort monocible de 1-4 po modifiable sans ligne de vue. Inflige 81 dégâts air. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Loupin",
+      "location": "Osamosa – Aile Glaciaire",
+      "archetype": "Offensif",
+      "level": "205-209",
+      "spells": [
+        {
+          "name": "Loupin-Pain",
+          "description": "Sort monocible au contact. Inflige 75 dégâts feu et un poison de 100 dégâts feu au début du tour de la cible. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Loupincident",
+          "description": "Sort monocible au contact. Inflige 81 dégâts feu et retire 3 PM. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Louping",
+          "description": "Sort de zone (croix de taille 1) de 1-5 po fixe. Se téléporte sur la case et inflige 75 dégâts eau aux ennemis au contact. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "CeEvroaint",
+      "location": "Shukrute – Démentia",
+      "archetype": "Offensif",
+      "level": "218-222",
+      "spells": [
+        {
+          "name": "Regard méchant démentiel",
+          "description": "Sort monocible de 1-5 po modifiable. Inflige 75 dégâts eau et vole 1 PM. Ne se lance qu’une fois par cible et deux fois par tour."
+        },
+        {
+          "name": "Mauvais oeil",
+          "description": "Sort de zone (croix de taille 1) de 2-5 po fixe sans ligne de vue. Inflige 57 dégâts eau et applique un niveau de l’état du même nom (max. 5) sur le CeEvroaint pour chaque ennemi touché. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Démence",
+          "description": "Sort monocible de 1-4 po fixe. Inflige 69 dégâts eau, ce sort consomme l’état Mauvais oeil et inflige 25 dégâts eau supplémentaires pour chaque niveau de l’état. Ne se lance qu’une fois par tour."
+        }
+      ]
+    },
+    {
+      "name": "Inanite",
+      "location": "Shukrute – Spirale du Vide",
+      "archetype": "Offensif",
+      "level": "220-224",
+      "spells": [
+        {
+          "name": "Attaque",
+          "description": "Sort monocible de 1-3 po fixe. Inflige 75 dégâts terre. Ne se lance que deux fois par tour."
+        },
+        {
+          "name": "Saut",
+          "description": "Sort utilitaire de 1-4 po fixe. Se téléporte sur la case ciblée. Ne se lance qu’une fois par tour."
+        },
+        {
+          "name": "Coup",
+          "description": "Sort monocible au contact. Inflige 56 dégâts terre, double les dégâts si la cible est de dos. Ne se lance qu’une fois par cible et deux fois par tour."
+        }
+      ]
+    }
+  ]
+}

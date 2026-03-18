@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wakfudex - Bestiaire Osamodas Wakfu (Invocations, sorts, archétypes)</title>
+  <meta name="description" content="Wakfudex est un bestiaire Osamodas pour Wakfu: invocations capturables, sorts, archétypes, niveaux et filtres de recherche. Projet fan non commercial.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0b3846">
+  <link rel="canonical" href="https://wakfudex.netlify.app/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Wakfudex">
+  <meta property="og:title" content="Wakfudex - Bestiaire Osamodas Wakfu">
+  <meta property="og:description" content="Invocations Osamodas, sorts, archétypes et niveaux dans une interface dédiée Wakfu.">
+  <meta property="og:url" content="https://wakfudex.netlify.app/">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Wakfudex - Bestiaire Osamodas Wakfu">
+  <meta name="twitter:description" content="Invocations, sorts, archétypes et niveaux Osamodas dans Wakfu.">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Wakfudex - Bestiaire Osamodas Wakfu",
+      "description": "Bestiaire des invocations Osamodas: sorts, niveaux et archétypes.",
+      "inLanguage": "fr",
+      "url": "https://wakfudex.netlify.app/",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Wakfudex",
+        "url": "https://wakfudex.netlify.app/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="dex-shell">
+      <div class="dex-panel dex-panel--left">
+        <div class="dex-topbar">
+          <div class="dex-orb"></div>
+          <div class="dex-lights">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="dex-brand">
+            <p>Bestiaire Osamodas</p>
+            <h1>Wakfudex</h1>
+          </div>
+        </div>
+
+        <section class="screen screen--main">
+          <div class="screen__header">
+            <p id="selected-archetype"></p>
+            <strong id="selected-level"></strong>
+          </div>
+          <div class="screen__portrait-frame">
+            <img id="selected-portrait" alt="">
+            <div id="selected-portrait-fallback"></div>
+          </div>
+          <div class="screen__footer">
+            <h2 id="selected-name"></h2>
+            <p id="selected-location"></p>
+          </div>
+        </section>
+
+        <section class="screen screen--details">
+          <div class="screen__minihead">
+            <p>Donn&eacute;es</p>
+            <h2>Sorts et notes</h2>
+          </div>
+          <ul class="spells" id="selected-spells"></ul>
+          <div class="notes" id="selected-notes"></div>
+        </section>
+      </div>
+
+      <div class="dex-hinge">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="dex-panel dex-panel--right">
+        <section class="screen screen--controls">
+          <div class="screen__minihead">
+            <p>Commande tactique</p>
+            <h2>Navigation du dex</h2>
+          </div>
+
+          <div class="controls-grid">
+            <label class="field field--wide">
+              <span>Recherche</span>
+              <input id="search-input" type="search" placeholder="Tofu, soin, retrait PM, Astrub...">
+            </label>
+
+            <label class="field">
+              <span>Arch&eacute;type</span>
+              <select id="archetype-filter"></select>
+            </label>
+
+            <label class="field">
+              <span>Palier</span>
+              <select id="level-filter">
+                <option value="all">Tous les niveaux</option>
+                <option value="1-50">1 - 50</option>
+                <option value="51-100">51 - 100</option>
+                <option value="101-150">101 - 150</option>
+                <option value="151-200">151 - 200</option>
+                <option value="201+">201+</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Trier</span>
+              <select id="sort-filter">
+                <option value="level-asc">Niveau croissant</option>
+                <option value="level-desc">Niveau d&eacute;croissant</option>
+                <option value="name-asc">Nom A-Z</option>
+              </select>
+            </label>
+
+            <button class="control-reset" id="reset-filters" type="button">R&eacute;initialiser</button>
+          </div>
+        </section>
+
+        <section class="data-panel">
+          <div class="data-panel__row">
+            <span>Recherche active</span>
+            <strong id="results-count"></strong>
+          </div>
+          <div class="data-panel__row">
+            <span>Entr&eacute;e affich&eacute;e</span>
+            <strong id="selected-index"></strong>
+          </div>
+        </section>
+
+        <section class="screen screen--list">
+          <div class="screen__minihead">
+            <p>Index</p>
+            <h2 id="results-title">Toutes les invocations</h2>
+          </div>
+          <div class="entry-list" id="entry-list"></div>
+        </section>
+
+      </div>
+    </section>
+
+    <footer class="dex-footer">
+      <a class="dex-footer__link" href="./mentions.html">Mentions sur l'utilisation des assets Ankama</a>
+    </footer>
+  </main>
+
+  <template id="entry-template">
+    <button class="entry-button" type="button">
+      <span class="entry-button__thumb">
+        <img class="entry-button__portrait" alt="">
+        <span class="entry-button__fallback"></span>
+      </span>
+      <span class="entry-button__body">
+        <strong class="entry-button__name"></strong>
+        <span class="entry-button__meta"></span>
+      </span>
+      <span class="entry-button__level"></span>
+    </button>
+  </template>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

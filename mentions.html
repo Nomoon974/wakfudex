@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentions légales - Wakfudex</title>
+  <meta name="description" content="Mentions légales et clarification d'usage des assets sur Wakfudex, projet fan non commercial lié à l'univers Ankama.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#0b3846">
+  <link rel="canonical" href="https://wakfudex.netlify.app/mentions.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Wakfudex">
+  <meta property="og:title" content="Mentions légales - Wakfudex">
+  <meta property="og:description" content="Page de mentions légales du projet fan Wakfudex.">
+  <meta property="og:url" content="https://wakfudex.netlify.app/mentions.html">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mentions légales - Wakfudex">
+  <meta name="twitter:description" content="Mentions légales du projet fan Wakfudex.">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Mentions légales - Wakfudex",
+      "inLanguage": "fr",
+      "url": "https://wakfudex.netlify.app/mentions.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Wakfudex",
+        "url": "https://wakfudex.netlify.app/"
+      }
+    }
+  </script>
+  <style>
+    .legal-shell {
+      width: min(980px, calc(100% - 24px));
+      margin: 32px auto;
+    }
+
+    .legal-card {
+      border: 2px solid rgba(155, 236, 228, 0.24);
+      border-radius: 24px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent 15%),
+        linear-gradient(180deg, #134f5d, #0b3745);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
+      padding: 28px;
+    }
+
+    .legal-head p {
+      margin: 0;
+      color: var(--gold);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .legal-head h1 {
+      margin: 8px 0 0;
+      font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      color: var(--text);
+    }
+
+    .legal-intro {
+      margin: 14px 0 0;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .legal-grid {
+      display: grid;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .legal-item {
+      border: 1px solid rgba(245, 227, 175, 0.16);
+      border-radius: 14px;
+      background: rgba(6, 22, 29, 0.34);
+      padding: 14px;
+    }
+
+    .legal-item h2 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+      color: var(--gold);
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    }
+
+    .legal-item p {
+      margin: 0;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .legal-note {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-left: 4px solid rgba(240, 204, 118, 0.66);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .legal-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 18px;
+    }
+
+    .legal-contact {
+      margin-top: 18px;
+      border: 1px solid rgba(245, 227, 175, 0.16);
+      border-radius: 14px;
+      background: rgba(6, 22, 29, 0.34);
+      padding: 14px;
+    }
+
+    .legal-contact h2 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      color: var(--gold);
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    }
+
+    .legal-contact p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .legal-form {
+      display: grid;
+      gap: 10px;
+    }
+
+    .legal-form__row {
+      display: grid;
+      gap: 6px;
+    }
+
+    .legal-form__row--split {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .legal-form label {
+      color: var(--text);
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .legal-form input,
+    .legal-form textarea {
+      width: 100%;
+      border: 1px solid rgba(141, 217, 210, 0.28);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      font: inherit;
+      padding: 10px 12px;
+      outline: none;
+    }
+
+    .legal-form input:focus,
+    .legal-form textarea:focus {
+      border-color: rgba(113, 201, 198, 0.8);
+      box-shadow: 0 0 0 3px rgba(113, 201, 198, 0.16);
+    }
+
+    .legal-form textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .legal-form__submit {
+      justify-self: start;
+      border: 1px solid rgba(240, 204, 118, 0.28);
+      border-radius: 12px;
+      color: var(--gold);
+      background: rgba(255, 255, 255, 0.06);
+      font: inherit;
+      font-weight: 700;
+      padding: 10px 14px;
+      cursor: pointer;
+    }
+
+    .legal-form__submit:hover {
+      border-color: rgba(240, 204, 118, 0.46);
+      background: rgba(240, 204, 118, 0.08);
+    }
+
+    @media (max-width: 720px) {
+      .legal-shell {
+        width: min(100% - 16px, 100%);
+        margin: 14px auto;
+      }
+
+      .legal-card {
+        padding: 18px;
+      }
+
+      .legal-actions {
+        justify-content: stretch;
+      }
+
+      .legal-actions .dex-footer__link {
+        width: 100%;
+        text-align: center;
+      }
+
+      .legal-form__row--split {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="legal-shell">
+    <article class="legal-card">
+      <header class="legal-head">
+        <p>Projet fan</p>
+        <h1>Mentions l&eacute;gales</h1>
+      </header>
+
+      <p class="legal-intro">
+        Cette page clarifie l'utilisation des assets li&eacute;s &agrave; l'univers Ankama dans le cadre de Wakfudex.
+      </p>
+
+      <section class="legal-grid">
+        <section class="legal-item">
+          <h2>Nature du projet</h2>
+          <p>Wakfudex est un projet de fan, r&eacute;alis&eacute; &agrave; titre non commercial et communautaire.</p>
+        </section>
+
+        <section class="legal-item">
+          <h2>Mon&eacute;tisation</h2>
+          <p>Je ne collecte pas d'argent avec ce projet. Aucune vente, abonnement ou mon&eacute;tisation directe n'est associ&eacute;e aux assets utilis&eacute;s.</p>
+        </section>
+
+        <section class="legal-item">
+          <h2>Propri&eacute;t&eacute; des contenus</h2>
+          <p>Les noms, visuels, personnages, assets et &eacute;l&eacute;ments d'univers li&eacute;s &agrave; Wakfu, Dofus et Ankama restent la propri&eacute;t&eacute; exclusive de leurs ayants droit, notamment Ankama.</p>
+        </section>
+
+        <section class="legal-item">
+          <h2>Statut du site</h2>
+          <p>Ce site n'est ni officiel, ni affili&eacute;, ni approuv&eacute; par Ankama.</p>
+        </section>
+
+        <section class="legal-item">
+          <h2>Retrait sur demande</h2>
+          <p>Tout contenu pourra &ecirc;tre retir&eacute; ou modifi&eacute; sur demande de bonne foi d'un titulaire de droits.</p>
+        </section>
+      </section>
+
+      <section class="legal-contact" aria-labelledby="legal-contact-title">
+        <h2 id="legal-contact-title">Demande relative aux contenus</h2>
+        <p>
+          Pour toute demande relative aux contenus, cr&eacute;dits, droits, ou retrait d'un &eacute;l&eacute;ment pr&eacute;sent sur ce site, merci d'utiliser le formulaire ci-dessous.
+          Les messages transmis via ce formulaire seront examin&eacute;s dans les meilleurs d&eacute;lais.
+        </p>
+
+        <form class="legal-form" name="legal-contact" method="POST" action="/merci/" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="legal-contact">
+          <p hidden>
+            <label>Ne pas remplir ce champ : <input name="bot-field"></label>
+          </p>
+
+          <div class="legal-form__row--split">
+            <div class="legal-form__row">
+              <label for="contact-name">Nom</label>
+              <input id="contact-name" name="name" type="text" required>
+            </div>
+            <div class="legal-form__row">
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" required>
+            </div>
+          </div>
+
+          <div class="legal-form__row">
+            <label for="contact-subject">Sujet</label>
+            <input id="contact-subject" name="subject" type="text" required>
+          </div>
+
+          <div class="legal-form__row">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" required></textarea>
+          </div>
+
+          <button class="legal-form__submit" type="submit">Envoyer la demande</button>
+        </form>
+      </section>
+
+      <p class="legal-note">
+        Cette page traduit une d&eacute;marche de respect des droits et de bonne foi. Elle ne constitue pas un avis juridique.
+      </p>
+
+      <div class="legal-actions">
+        <a class="dex-footer__link" href="./index.html">Retour au Wakfudex</a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

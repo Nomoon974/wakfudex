@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merci - Wakfudex</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .thanks-shell {
+      width: min(780px, calc(100% - 24px));
+      margin: 40px auto;
+    }
+
+    .thanks-card {
+      border: 2px solid rgba(155, 236, 228, 0.24);
+      border-radius: 20px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent 15%),
+        linear-gradient(180deg, #134f5d, #0b3745);
+      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.32);
+      padding: 26px;
+    }
+
+    .thanks-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .thanks-kicker {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.78rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .thanks-card h1 {
+      margin: 0 0 10px;
+      font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      color: var(--text);
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+    }
+
+    .thanks-actions {
+      margin-top: 18px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .thanks-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      border: 1px solid rgba(240, 204, 118, 0.3);
+      color: var(--gold);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .thanks-link:hover {
+      border-color: rgba(240, 204, 118, 0.46);
+      background: rgba(240, 204, 118, 0.08);
+    }
+  </style>
+</head>
+<body>
+  <main class="thanks-shell">
+    <article class="thanks-card">
+      <p class="thanks-kicker">Message envoyé</p>
+      <h1>Merci, votre demande a bien été transmise.</h1>
+      <p>Votre message a été reçu via le formulaire et sera examiné dans les meilleurs délais.</p>
+
+      <div class="thanks-actions">
+        <a class="thanks-link" href="../mentions.html">Retour aux mentions légales</a>
+        <a class="thanks-link" href="../index.html">Retour au Wakfudex</a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wakfudex.netlify.app/sitemap.xml
